@@ -1,0 +1,570 @@
+TBasicCrypter
+v3
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist build/Debug-iphoneos/BasicCrypter.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/Info.plist BasicCrypter/BasicCrypter-Info.plist
+cProcessPCH /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-doaadnlednllhphkftbodjatfrjy/BasicCrypter-Prefix.pch.gch BasicCrypter/BasicCrypter-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-bmgwunotbvgpxngvgjssfmzjjfmz/BasicCrypter-Prefix.pch.gch BasicCrypter/BasicCrypter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/main.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypterAppDelegate.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/MainViewController.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/FlipsideViewController.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/EncryptionModule.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/main.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypterAppDelegate.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypter normal armv6
+cCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/MainViewController.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/FlipsideViewController.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/EncryptionModule.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypter normal armv7
+cCreateUniversalBinary /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/BasicCrypter normal "armv6 armv7"
+cGenerateDSYMFile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app.dSYM /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/BasicCrypter
+cCopyStringsFile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/en.lproj/InfoPlist.strings BasicCrypter/en.lproj/InfoPlist.strings
+cCompileXIB /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/en.lproj/MainWindow.xib
+cCompileXIB /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainView.xib
+cCompileXIB /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideView.xib
+cTouch /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter.xcent
+cCodeSign /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
+c000000004D5F25270000000000000110
+t1298081063
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypter-Prefix.pch
+c000000004E3970B3000000000000014A
+t1312387251
+s330
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.h
+c000000004E3970B300000000000001A2
+t1312387251
+s418
+i<UIKit/UIKit.h>
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m
+c000000004E398C3100000000000009F6
+t1312394289
+s2550
+i"BasicCrypterAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.h
+c000000004E39863200000000000001CF
+t1312392754
+s463
+i<Foundation/Foundation.h>
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.m
+c000000004E398B7D00000000000008E9
+t1312394109
+s2281
+i"EncryptionModule.h"
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideView.xib
+c000000004E3970B30000000000004C5B
+t1312387251
+s19547
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.h
+c000000004E3970B300000000000001FE
+t1312387251
+s510
+i<UIKit/UIKit.h>
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.m
+c000000004E3970B30000000000000465
+t1312387251
+s1125
+i"FlipsideViewController.h"
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainView.xib
+c000000004E398A120000000000004E62
+t1312393746
+s20066
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.h
+c000000004E3989DE00000000000001D7
+t1312393694
+s471
+i"FlipsideViewController.h"
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m
+c000000004E398AA60000000000000897
+t1312393894
+s2199
+i"MainViewController.h"
+i"EncryptionModule.h"
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/en.lproj/InfoPlist.strings
+c000000004E3970B3000000000000002D
+t1312387251
+s45
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/en.lproj/MainWindow.xib
+c000000004E3970B3000000000000509C
+t1312387251
+s20636
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.m
+c000000004E3970B3000000000000015E
+t1312387251
+s350
+i<UIKit/UIKit.h>
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter.xcent
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypter
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypter.LinkFileList
+c000000004E398C320000000000000305
+t1312394290
+s773
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypterAppDelegate.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/EncryptionModule.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/FlipsideViewController.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/MainViewController.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypter
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypter.LinkFileList
+c000000004E398C320000000000000305
+t1312394290
+s773
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypterAppDelegate.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/EncryptionModule.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/FlipsideViewController.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/MainViewController.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app.dSYM
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/BasicCrypter
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/FlipsideView.nib
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/Info.plist
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/MainView.nib
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/PkgInfo
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/ResourceRules.plist
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/en.lproj/MainWindow.nib
+t2
+s0
+
+N/var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-bmgwunotbvgpxngvgjssfmzjjfmz/BasicCrypter-Prefix.pch.gch
+t2
+s0
+
+N/var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-doaadnlednllhphkftbodjatfrjy/BasicCrypter-Prefix.pch.gch
+t2
+s0
+
+NBasicCrypter/BasicCrypter-Info.plist
+c000000004E39713F000000000000063E
+t1312387391
+s1598
+
+CBuild AST from /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m
+r0
+
+CBuild AST from /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.m
+r0
+
+CBuild AST from /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.m
+r0
+
+CBuild AST from /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m
+r0
+
+CBuild AST from /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1615c9b2c3e9b341^32c7fab2c3e9b341^---0#1#0#--18"Check dependencies
+
+CCodeSign /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app
+s334087095.315195
+e334087095.864970
+r1
+xCodeSign
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"CodeSign build/Debug-iphoneos/BasicCrypter.appbad850b7c3e9b341^596eddb7c3e9b341^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/0000000000000000^757"CodeSign build/Debug-iphoneos/BasicCrypter.app    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer" --resource-rules=/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/ResourceRules.plist --entitlements /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter.xcent /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app
+
+CCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypterAppDelegate.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334087092.252187
+e334087092.433253
+r1
+xCompileC
+xbuild/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypterAppDelegate.o
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m43ae40b4c3e9b341^57e96eb4c3e9b341^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m0000000000000000^2255"CompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypterAppDelegate.o BasicCrypter/BasicCrypterAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/include -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources/armv6 -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -include /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-doaadnlednllhphkftbodjatfrjy/BasicCrypter-Prefix.pch -c /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypterAppDelegate.o
+
+CCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/EncryptionModule.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334087092.496965
+e334087092.579381
+r1
+xCompileC
+xbuild/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/EncryptionModule.o
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.m1d577fb4c3e9b341^9f5b94b4c3e9b341^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.m0000000000000000^2227"CompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/EncryptionModule.o BasicCrypter/EncryptionModule.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/include -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources/armv6 -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -include /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-doaadnlednllhphkftbodjatfrjy/BasicCrypter-Prefix.pch -c /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.m -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/EncryptionModule.o
+
+CCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/FlipsideViewController.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334087092.433435
+e334087092.558765
+r1
+xCompileC
+xbuild/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/FlipsideViewController.o
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.mbe136fb4c3e9b341^910a8fb4c3e9b341^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.m0000000000000000^2251"CompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/FlipsideViewController.o BasicCrypter/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/include -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources/armv6 -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -include /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-doaadnlednllhphkftbodjatfrjy/BasicCrypter-Prefix.pch -c /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.m -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/FlipsideViewController.o
+
+CCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/MainViewController.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334087092.372254
+e334087092.496720
+r1
+xCompileC
+xbuild/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/MainViewController.o
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m5d6b5fb4c3e9b341^a6287fb4c3e9b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m0000000000000000^2235"CompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/MainViewController.o BasicCrypter/MainViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/include -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources/armv6 -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -include /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-doaadnlednllhphkftbodjatfrjy/BasicCrypter-Prefix.pch -c /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/MainViewController.o
+
+CCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/main.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334087092.085313
+e334087092.371657
+r1
+xCompileC
+xbuild/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/main.o
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.m83f715b4c3e9b341^272e5fb4c3e9b341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.m0000000000000000^2179"CompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/main.o BasicCrypter/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/include -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources/armv6 -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -include /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-doaadnlednllhphkftbodjatfrjy/BasicCrypter-Prefix.pch -c /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.m -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/main.o
+
+CCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypterAppDelegate.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334087092.579817
+e334087092.713912
+r1
+xCompileC
+xbuild/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypterAppDelegate.o
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m3b8d94b4c3e9b341^33c3b6b4c3e9b341^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m0000000000000000^2255"CompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypterAppDelegate.o BasicCrypter/BasicCrypterAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/include -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -include /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-bmgwunotbvgpxngvgjssfmzjjfmz/BasicCrypter-Prefix.pch -c /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypterAppDelegate.m -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypterAppDelegate.o
+
+CCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/EncryptionModule.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334087092.917867
+e334087093.000200
+r1
+xCompileC
+xbuild/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/EncryptionModule.o
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.mf416ebb4c3e9b341^0b0d00b5c3e9b341^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.m0000000000000000^2227"CompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/EncryptionModule.o BasicCrypter/EncryptionModule.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/include -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -include /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-bmgwunotbvgpxngvgjssfmzjjfmz/BasicCrypter-Prefix.pch -c /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/EncryptionModule.m -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/EncryptionModule.o
+
+CCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/FlipsideViewController.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334087092.821721
+e334087092.917682
+r1
+xCompileC
+xbuild/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/FlipsideViewController.o
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.ma77ad2b4c3e9b341^67edeab4c3e9b341^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.m0000000000000000^2251"CompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/FlipsideViewController.o BasicCrypter/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/include -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -include /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-bmgwunotbvgpxngvgjssfmzjjfmz/BasicCrypter-Prefix.pch -c /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideViewController.m -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/FlipsideViewController.o
+
+CCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/MainViewController.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334087092.714084
+e334087092.821533
+r1
+xCompileC
+xbuild/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/MainViewController.o
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m96eab6b4c3e9b341^2f50d2b4c3e9b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m0000000000000000^2235"CompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/MainViewController.o BasicCrypter/MainViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/include -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -include /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-bmgwunotbvgpxngvgjssfmzjjfmz/BasicCrypter-Prefix.pch -c /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainViewController.m -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/MainViewController.o
+
+CCompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/main.o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334087092.558952
+e334087092.639718
+r1
+xCompileC
+xbuild/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/main.o
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.mac368fb4c3e9b341^25cda3b4c3e9b341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.m0000000000000000^2179"CompileC build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/main.o BasicCrypter/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/include -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -include /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-bmgwunotbvgpxngvgjssfmzjjfmz/BasicCrypter-Prefix.pch -c /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/main.m -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/main.o
+
+CCompileXIB /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideView.xib
+s334087095.218719
+e334087095.279983
+r1
+xCompileXIB
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideView.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compiling /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideView.xibbe1238b7c3e9b341^08ad47b7c3e9b341^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideView.xib0000000000000000^662"CompileXIB BasicCrypter/FlipsideView.xib    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/FlipsideView.nib /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/FlipsideView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
+
+CCompileXIB /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainView.xib
+s334087094.262359
+e334087095.250337
+r1
+xCompileXIB
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainView.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compiling /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainView.xib863b43b6c3e9b341^481640b7c3e9b341^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainView.xib0000000000000000^650"CompileXIB BasicCrypter/MainView.xib    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/MainView.nib /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/MainView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
+
+CCompileXIB /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/en.lproj/MainWindow.xib
+s334087094.258428
+e334087095.218336
+r1
+xCompileXIB
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/en.lproj/MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compiling /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/en.lproj/MainWindow.xib9a3f42b6c3e9b341^efe437b7c3e9b341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/en.lproj/MainWindow.xib0000000000000000^683"CompileXIB BasicCrypter/en.lproj/MainWindow.xib    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/en.lproj/MainWindow.nib /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
+
+CCopyStringsFile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/en.lproj/InfoPlist.strings BasicCrypter/en.lproj/InfoPlist.strings
+s334087094.258211
+e334087094.262122
+r1
+xCopyStringsFile
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/en.lproj/InfoPlist.strings
+xBasicCrypter/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy BasicCrypter/en.lproj/InfoPlist.strings043b42b6c3e9b341^471f43b6c3e9b341^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/en.lproj/InfoPlist.strings0000000000000000^542"CopyStringsFile build/Debug-iphoneos/BasicCrypter.app/en.lproj/InfoPlist.strings BasicCrypter/en.lproj/InfoPlist.strings    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/en.lproj -- BasicCrypter/en.lproj/InfoPlist.strings
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist build/Debug-iphoneos/BasicCrypter.app/ResourceRules.plist
+s334087090.992264
+e334087091.023155
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/BasicCrypter.app/ResourceRules.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/BasicCrypter.app/ResourceRules.plist8928feb2c3e9b341^051406b3c3e9b341^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/ResourceRules.plist000020442305f041^627"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist build/Debug-iphoneos/BasicCrypter.app/ResourceRules.plist    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app
+
+CCreateUniversalBinary /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/BasicCrypter normal "armv6 armv7"
+s334087094.176306
+e334087094.211236
+r1
+xCreateUniversalBinary
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/BasicCrypter
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Create universal binary /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/BasicCryptercd3c2db6c3e9b341^721636b6c3e9b341^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/BasicCrypter000020442305f041^716"CreateUniversalBinary build/Debug-iphoneos/BasicCrypter.app/BasicCrypter normal "armv6 armv7"    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypter /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypter -output /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/BasicCrypter
+
+CGenerateDSYMFile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app.dSYM /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/BasicCrypter
+s334087094.211514
+e334087094.256560
+r1
+xGenerateDSYMFile
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app.dSYM
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/BasicCrypter
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Generating /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app.dSYM463f36b6c3e9b341^a7ad41b6c3e9b341^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app.dSYM000020442305f041^536"GenerateDSYMFile build/Debug-iphoneos/BasicCrypter.app.dSYM build/Debug-iphoneos/BasicCrypter.app/BasicCrypter    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/BasicCrypter -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app.dSYM
+
+CLd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypter normal armv6
+s334087092.640292
+e334087094.176024
+r1
+xLd
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypter
+xnormal
+xarmv6
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Link /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypter2503a4b4c3e9b341^c3102db6c3e9b341^---0#0#0#--1083"Ld build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypter normal armv6    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -L/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -filelist /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypter.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv6/BasicCrypter
+
+CLd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypter normal armv7
+s334087093.001092
+e334087094.158368
+r1
+xLd
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypter
+xnormal
+xarmv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Link /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypter916200b5c3e9b341^5c8d28b6c3e9b341^---0#0#0#--1083"Ld build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypter normal armv7    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -L/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -filelist /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypter.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/Objects-normal/armv7/BasicCrypter
+
+CProcessInfoPlistFile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/Info.plist BasicCrypter/BasicCrypter-Info.plist
+s334087090.993637
+e334087091.001068
+r1
+xProcessInfoPlistFile
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/Info.plist
+xBasicCrypter/BasicCrypter-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process BasicCrypter/BasicCrypter-Info.plist0475feb2c3e9b341^1a4f00b3c3e9b341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypter-Info.plist0000000000000000^766"ProcessInfoPlistFile build/Debug-iphoneos/BasicCrypter.app/Info.plist BasicCrypter/BasicCrypter-Info.plist    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BasicCrypter/BasicCrypter-Info.plist -genpkginfo /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/ResourceRules.plist -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app/Info.plist
+
+CProcessPCH /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/DerivedData/BasicCrypter/Index/PrecompiledHeaders/BasicCrypter-Prefix-dorhtndqiwiolofgwtuuqazoozee_ast/BasicCrypter-Prefix.pch.pth BasicCrypter/BasicCrypter-Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/DerivedData/BasicCrypter/Index/PrecompiledHeaders/BasicCrypter-Prefix-gaattuihmrlsmmahpciieprfyich_ast/BasicCrypter-Prefix.pch.pth BasicCrypter/BasicCrypter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-bmgwunotbvgpxngvgjssfmzjjfmz/BasicCrypter-Prefix.pch.gch BasicCrypter/BasicCrypter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s334087091.026336
+e334087092.251668
+r1
+xProcessPCH
+x/var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-bmgwunotbvgpxngvgjssfmzjjfmz/BasicCrypter-Prefix.pch.gch
+xBasicCrypter/BasicCrypter-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile BasicCrypter/BasicCrypter-Prefix.pch77da06b3c3e9b341^a77840b4c3e9b341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypter-Prefix.pch0000000000000000^2163"ProcessPCH /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-bmgwunotbvgpxngvgjssfmzjjfmz/BasicCrypter-Prefix.pch.gch BasicCrypter/BasicCrypter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/include -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -c /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypter-Prefix.pch -o /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-bmgwunotbvgpxngvgjssfmzjjfmz/BasicCrypter-Prefix.pch.gch
+
+CProcessPCH /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-doaadnlednllhphkftbodjatfrjy/BasicCrypter-Prefix.pch.gch BasicCrypter/BasicCrypter-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s334087091.025002
+e334087092.083478
+r1
+xProcessPCH
+x/var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-doaadnlednllhphkftbodjatfrjy/BasicCrypter-Prefix.pch.gch
+xBasicCrypter/BasicCrypter-Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile BasicCrypter/BasicCrypter-Prefix.pch408606b3c3e9b341^266e15b4c3e9b341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypter-Prefix.pch0000000000000000^2163"ProcessPCH /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-doaadnlednllhphkftbodjatfrjy/BasicCrypter-Prefix.pch.gch BasicCrypter/BasicCrypter-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/include -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources/armv6 -I/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos -c /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/BasicCrypter/BasicCrypter-Prefix.pch -o /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicCrypter-Prefix-doaadnlednllhphkftbodjatfrjy/BasicCrypter-Prefix.pch.gch
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter.xcent
+s334087095.291444
+e334087095.313363
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter.xcent
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection190"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter.xcentb7b44ab7c3e9b341^772e50b7c3e9b341^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter.xcent000020442305f041^670"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter.xcent    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/BasicCrypter.build/Debug-iphoneos/BasicCrypter.build/BasicCrypter.xcent
+
+CTouch /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app
+s334087095.281539
+e334087095.289866
+r1
+xTouch
+x/Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Touch /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.appa22448b7c3e9b341^61354ab7c3e9b341^---0#0#0#--345"Touch build/Debug-iphoneos/BasicCrypter.app    cd /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/tigra/Desktop/Coding/Encrypter/iOS/BasicCrypter/build/Debug-iphoneos/BasicCrypter.app
+

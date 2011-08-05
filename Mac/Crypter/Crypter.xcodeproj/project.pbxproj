@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82CE1BBB13E9C6880076F83A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CE1BBA13E9C6880076F83A /* Cocoa.framework */; };
+		82CE1BC513E9C6880076F83A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82CE1BC313E9C6880076F83A /* InfoPlist.strings */; };
+		82CE1BC813E9C6880076F83A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CE1BC713E9C6880076F83A /* main.m */; };
+		82CE1BCB13E9C6880076F83A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 82CE1BC913E9C6880076F83A /* Credits.rtf */; };
+		82CE1BCE13E9C6880076F83A /* CrypterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CE1BCD13E9C6880076F83A /* CrypterAppDelegate.m */; };
+		82CE1BD113E9C6880076F83A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82CE1BCF13E9C6880076F83A /* MainMenu.xib */; };
+		82CE1BDA13E9C6970076F83A /* EncryptionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CE1BD913E9C6970076F83A /* EncryptionModule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82CE1BB613E9C6880076F83A /* Crypter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CE1BBA13E9C6880076F83A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		82CE1BBD13E9C6880076F83A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		82CE1BBE13E9C6880076F83A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		82CE1BBF13E9C6880076F83A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82CE1BC213E9C6880076F83A /* Crypter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Crypter-Info.plist"; sourceTree = "<group>"; };
+		82CE1BC413E9C6880076F83A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82CE1BC613E9C6880076F83A /* Crypter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Crypter-Prefix.pch"; sourceTree = "<group>"; };
+		82CE1BC713E9C6880076F83A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82CE1BCA13E9C6880076F83A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		82CE1BCC13E9C6880076F83A /* CrypterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrypterAppDelegate.h; sourceTree = "<group>"; };
+		82CE1BCD13E9C6880076F83A /* CrypterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrypterAppDelegate.m; sourceTree = "<group>"; };
+		82CE1BD013E9C6880076F83A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82CE1BD813E9C6970076F83A /* EncryptionModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionModule.h; sourceTree = "<group>"; };
+		82CE1BD913E9C6970076F83A /* EncryptionModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionModule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82CE1BB313E9C6880076F83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CE1BBB13E9C6880076F83A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82CE1BAB13E9C6880076F83A = {
+			isa = PBXGroup;
+			children = (
+				82CE1BC013E9C6880076F83A /* Crypter */,
+				82CE1BB913E9C6880076F83A /* Frameworks */,
+				82CE1BB713E9C6880076F83A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82CE1BB713E9C6880076F83A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82CE1BB613E9C6880076F83A /* Crypter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82CE1BB913E9C6880076F83A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82CE1BBA13E9C6880076F83A /* Cocoa.framework */,
+				82CE1BBC13E9C6880076F83A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82CE1BBC13E9C6880076F83A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82CE1BBD13E9C6880076F83A /* AppKit.framework */,
+				82CE1BBE13E9C6880076F83A /* CoreData.framework */,
+				82CE1BBF13E9C6880076F83A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		82CE1BC013E9C6880076F83A /* Crypter */ = {
+			isa = PBXGroup;
+			children = (
+				82CE1BCC13E9C6880076F83A /* CrypterAppDelegate.h */,
+				82CE1BCD13E9C6880076F83A /* CrypterAppDelegate.m */,
+				82CE1BD713E9C6970076F83A /* Mac module */,
+				82CE1BCF13E9C6880076F83A /* MainMenu.xib */,
+				82CE1BC113E9C6880076F83A /* Supporting Files */,
+			);
+			path = Crypter;
+			sourceTree = "<group>";
+		};
+		82CE1BC113E9C6880076F83A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82CE1BC213E9C6880076F83A /* Crypter-Info.plist */,
+				82CE1BC313E9C6880076F83A /* InfoPlist.strings */,
+				82CE1BC613E9C6880076F83A /* Crypter-Prefix.pch */,
+				82CE1BC713E9C6880076F83A /* main.m */,
+				82CE1BC913E9C6880076F83A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82CE1BD713E9C6970076F83A /* Mac module */ = {
+			isa = PBXGroup;
+			children = (
+				82CE1BD813E9C6970076F83A /* EncryptionModule.h */,
+				82CE1BD913E9C6970076F83A /* EncryptionModule.m */,
+			);
+			path = "Mac module";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82CE1BB513E9C6880076F83A /* Crypter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CE1BD413E9C6880076F83A /* Build configuration list for PBXNativeTarget "Crypter" */;
+			buildPhases = (
+				82CE1BB213E9C6880076F83A /* Sources */,
+				82CE1BB313E9C6880076F83A /* Frameworks */,
+				82CE1BB413E9C6880076F83A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crypter;
+			productName = Crypter;
+			productReference = 82CE1BB613E9C6880076F83A /* Crypter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82CE1BAD13E9C6880076F83A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tigr@Soft";
+			};
+			buildConfigurationList = 82CE1BB013E9C6880076F83A /* Build configuration list for PBXProject "Crypter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82CE1BAB13E9C6880076F83A;
+			productRefGroup = 82CE1BB713E9C6880076F83A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82CE1BB513E9C6880076F83A /* Crypter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82CE1BB413E9C6880076F83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CE1BC513E9C6880076F83A /* InfoPlist.strings in Resources */,
+				82CE1BCB13E9C6880076F83A /* Credits.rtf in Resources */,
+				82CE1BD113E9C6880076F83A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82CE1BB213E9C6880076F83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CE1BC813E9C6880076F83A /* main.m in Sources */,
+				82CE1BCE13E9C6880076F83A /* CrypterAppDelegate.m in Sources */,
+				82CE1BDA13E9C6970076F83A /* EncryptionModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82CE1BC313E9C6880076F83A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CE1BC413E9C6880076F83A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82CE1BC913E9C6880076F83A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CE1BCA13E9C6880076F83A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		82CE1BCF13E9C6880076F83A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CE1BD013E9C6880076F83A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82CE1BD213E9C6880076F83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82CE1BD313E9C6880076F83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82CE1BD513E9C6880076F83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crypter/Crypter-Prefix.pch";
+				INFOPLIST_FILE = "Crypter/Crypter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82CE1BD613E9C6880076F83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crypter/Crypter-Prefix.pch";
+				INFOPLIST_FILE = "Crypter/Crypter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82CE1BB013E9C6880076F83A /* Build configuration list for PBXProject "Crypter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CE1BD213E9C6880076F83A /* Debug */,
+				82CE1BD313E9C6880076F83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CE1BD413E9C6880076F83A /* Build configuration list for PBXNativeTarget "Crypter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CE1BD513E9C6880076F83A /* Debug */,
+				82CE1BD613E9C6880076F83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82CE1BAD13E9C6880076F83A /* Project object */;
+}

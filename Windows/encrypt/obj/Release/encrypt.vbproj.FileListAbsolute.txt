@@ -1,0 +1,10 @@
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2008\Projects\encrypt\encrypt\bin\Release\encrypt.exe
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2008\Projects\encrypt\encrypt\bin\Release\encrypt.pdb
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2008\Projects\encrypt\encrypt\bin\Release\encrypt.xml
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2008\Projects\encrypt\encrypt\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2008\Projects\encrypt\encrypt\obj\Release\encrypt.Form1.resources
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2008\Projects\encrypt\encrypt\obj\Release\encrypt.Resources.resources
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2008\Projects\encrypt\encrypt\obj\Release\encrypt.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2008\Projects\encrypt\encrypt\obj\Release\encrypt.exe
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2008\Projects\encrypt\encrypt\obj\Release\encrypt.xml
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2008\Projects\encrypt\encrypt\obj\Release\encrypt.pdb

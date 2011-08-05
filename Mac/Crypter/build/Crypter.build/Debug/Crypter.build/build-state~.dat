@@ -1,0 +1,261 @@
+TCrypter
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Info.plist Crypter/Crypter-Info.plist
+cProcessPCH /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Crypter-Prefix-cvkrkyzxklwsqtbaepzdfeezuhyg/Crypter-Prefix.pch.pth Crypter/Crypter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/main.o /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/CrypterAppDelegate.o /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/CrypterAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/EncryptionModule.o "/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Mac module/EncryptionModule.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/MacOS/Crypter normal x86_64
+cCopyStringsFile /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Resources/en.lproj/InfoPlist.strings Crypter/en.lproj/InfoPlist.strings
+cCpResource Crypter/en.lproj/Credits.rtf build/Debug/Crypter.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/en.lproj/MainMenu.xib
+cTouch /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004DD7C96200000000000000EE
+t1305987426
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004D6616440000000000003430
+t1298536004
+s13360
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Crypter-Prefix.pch
+c000000004E398F080000000000000091
+t1312395016
+s145
+i<Cocoa/Cocoa.h>
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/CrypterAppDelegate.h
+c000000004E398F08000000000000013A
+t1312395016
+s314
+i<Cocoa/Cocoa.h>
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/CrypterAppDelegate.m
+c000000004E398F080000000000000168
+t1312395016
+s360
+i"CrypterAppDelegate.h"
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Mac module/EncryptionModule.h
+c000000004E39863200000000000001CF
+t1312392754
+s463
+i<Foundation/Foundation.h>
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Mac module/EncryptionModule.m
+c000000004E398B7D00000000000008E9
+t1312394109
+s2281
+i"EncryptionModule.h"
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/en.lproj/Credits.rtf
+c000000004E398F0800000000000001B4
+t1312395016
+s436
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/en.lproj/InfoPlist.strings
+c000000004E398F08000000000000002D
+t1312395016
+s45
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/en.lproj/MainMenu.xib
+c000000004E398FB00000000000006C40
+t1312395184
+s27712
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/main.m
+c000000004E398F0800000000000000F1
+t1312395016
+s241
+i<Cocoa/Cocoa.h>
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/Crypter.LinkFileList
+c000000004E398FB0000000000000017F
+t1312395184
+s383
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/CrypterAppDelegate.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/EncryptionModule.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Info.plist
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/MacOS/Crypter
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Crypter-Prefix-cvkrkyzxklwsqtbaepzdfeezuhyg/Crypter-Prefix.pch.pth
+t2
+s0
+
+NCrypter/Crypter-Info.plist
+c000000004E398F0800000000000003E3
+t1312395016
+s995
+
+CBuild AST from "/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Mac module/EncryptionModule.m"
+r0
+
+CBuild AST from /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/CrypterAppDelegate.m
+r0
+
+CBuild AST from /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfeb85d30c7e9b341^0cae7d30c7e9b341^---0#1#0#--18"Check dependencies
+
+CCompileC build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/CrypterAppDelegate.o /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/CrypterAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s334087985.788396
+e334087985.983492
+r1
+xCompileC
+xbuild/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/CrypterAppDelegate.o
+x/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/CrypterAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/CrypterAppDelegate.mfbebc931c7e9b341^9cc5fb31c7e9b341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/CrypterAppDelegate.m0000000000000000^1958"CompileC build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/CrypterAppDelegate.o Crypter/CrypterAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/include -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug -include /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Crypter-Prefix-cvkrkyzxklwsqtbaepzdfeezuhyg/Crypter-Prefix.pch -c /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/CrypterAppDelegate.m -o /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/CrypterAppDelegate.o
+
+CCompileC build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/EncryptionModule.o "/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Mac module/EncryptionModule.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s334087985.980042
+e334087986.029084
+r1
+xCompileC
+xbuild/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/EncryptionModule.o
+x/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Mac module/EncryptionModule.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Mac module/EncryptionModule.m5401fb31c7e9b341^a8710732c7e9b341^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Mac%20module/EncryptionModule.m0000000000000000^1976"CompileC build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/EncryptionModule.o "Crypter/Mac module/EncryptionModule.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/include -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug -include /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Crypter-Prefix-cvkrkyzxklwsqtbaepzdfeezuhyg/Crypter-Prefix.pch -c "/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Mac module/EncryptionModule.m" -o /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/EncryptionModule.o
+
+CCompileC build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/main.o /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s334087985.787520
+e334087985.979679
+r1
+xCompileC
+xbuild/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/main.o
+x/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/main.m17b7c931c7e9b341^5ad5fa31c7e9b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/main.m0000000000000000^1902"CompileC build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/main.o Crypter/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/include -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug -include /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Crypter-Prefix-cvkrkyzxklwsqtbaepzdfeezuhyg/Crypter-Prefix.pch -c /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/main.m -o /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/main.o
+
+CCompileXIB /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/en.lproj/MainMenu.xib
+s334087986.498965
+e334087988.714964
+r1
+xCompileXIB
+x/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/en.lproj/MainMenu.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compiling /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/en.lproj/MainMenu.xib7cd47f32c7e9b341^f207b734c7e9b341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/en.lproj/MainMenu.xib0000000000000000^494"CompileXIB Crypter/en.lproj/MainMenu.xib    cd /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Resources/en.lproj/MainMenu.nib /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/en.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk
+
+CCopyStringsFile /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Resources/en.lproj/InfoPlist.strings Crypter/en.lproj/InfoPlist.strings
+s334087986.494699
+e334087986.498640
+r1
+xCopyStringsFile
+x/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Resources/en.lproj/InfoPlist.strings
+xCrypter/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy Crypter/en.lproj/InfoPlist.strings90bd7e32c7e9b341^f4a97f32c7e9b341^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/en.lproj/InfoPlist.strings0000000000000000^408"CopyStringsFile build/Debug/Crypter.app/Contents/Resources/en.lproj/InfoPlist.strings Crypter/en.lproj/InfoPlist.strings    cd /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Resources/en.lproj -- Crypter/en.lproj/InfoPlist.strings
+
+CCpResource Crypter/en.lproj/Credits.rtf build/Debug/Crypter.app/Contents/Resources/en.lproj/Credits.rtf
+s334087986.494827
+e334087986.498637
+r1
+xCpResource
+xCrypter/en.lproj/Credits.rtf
+xbuild/Debug/Crypter.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug/Crypter.app/Contents/Resources/en.lproj/Credits.rtf40c07e32c7e9b341^0cb07f32c7e9b341^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Resources/en.lproj/Credits.rtf000020442305f041^441"CpResource Crypter/en.lproj/Credits.rtf build/Debug/Crypter.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/en.lproj/Credits.rtf /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Resources/en.lproj
+
+CLd /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/MacOS/Crypter normal x86_64
+s334087986.029301
+e334087986.491689
+r1
+xLd
+x/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/MacOS/Crypter
+xnormal
+xx86_64
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Link /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/MacOS/Crypter5c920732c7e9b341^f8e07d32c7e9b341^---0#0#0#--659"Ld build/Debug/Crypter.app/Contents/MacOS/Crypter normal x86_64    cd /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug -F/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug -filelist /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Objects-normal/x86_64/Crypter.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/MacOS/Crypter
+
+CProcessInfoPlistFile /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Info.plist Crypter/Crypter-Info.plist
+s334087984.425584
+e334087984.433441
+r1
+xProcessInfoPlistFile
+x/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Info.plist
+xCrypter/Crypter-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process Crypter/Crypter-Info.plist03066d30c7e9b341^89b47d30c7e9b341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Crypter-Info.plist0000000000000000^443"ProcessInfoPlistFile build/Debug/Crypter.app/Contents/Info.plist Crypter/Crypter-Info.plist    cd /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter    builtin-infoPlistUtility Crypter/Crypter-Info.plist -genpkginfo /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app/Contents/Info.plist
+
+CProcessPCH /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/DerivedData/Crypter/Index/PrecompiledHeaders/Crypter-Prefix-cjiorblxfarvkzdkuvxqqplgatwz_ast/Crypter-Prefix.pch.pth Crypter/Crypter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Crypter-Prefix-cvkrkyzxklwsqtbaepzdfeezuhyg/Crypter-Prefix.pch.pth Crypter/Crypter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s334087984.466228
+e334087985.787248
+r1
+xProcessPCH
+x/var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Crypter-Prefix-cvkrkyzxklwsqtbaepzdfeezuhyg/Crypter-Prefix.pch.pth
+xCrypter/Crypter-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Crypter/Crypter-Prefix.pch0b7e7730c7e9b341^f488c931c7e9b341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Crypter-Prefix.pch0000000000000000^1907"ProcessPCH /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Crypter-Prefix-cvkrkyzxklwsqtbaepzdfeezuhyg/Crypter-Prefix.pch.pth Crypter/Crypter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-generated-files.hmap -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/Crypter-project-headers.hmap -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/include -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Crypter.build/Debug/Crypter.build/DerivedSources -F/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug -c /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Crypter-Prefix.pch -o /var/folders/1m/1msLGpk2GeCHHiyNxqDU6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Crypter-Prefix-cvkrkyzxklwsqtbaepzdfeezuhyg/Crypter-Prefix.pch.pth
+
+CTouch /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app
+s334087988.717439
+e334087988.750547
+r1
+xTouch
+x/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Touch /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app2cb8b734c7e9b341^cc26c034c7e9b341^---0#0#0#--183"Touch build/Debug/Crypter.app    cd /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter    /usr/bin/touch -c /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/Crypter.app
+

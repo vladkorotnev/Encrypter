@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		829E2A1D13E9A83300775931 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829E2A1C13E9A83300775931 /* UIKit.framework */; };
+		829E2A1F13E9A83300775931 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829E2A1E13E9A83300775931 /* Foundation.framework */; };
+		829E2A2113E9A83300775931 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829E2A2013E9A83300775931 /* CoreGraphics.framework */; };
+		829E2A2713E9A83300775931 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 829E2A2513E9A83300775931 /* InfoPlist.strings */; };
+		829E2A2A13E9A83300775931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 829E2A2913E9A83300775931 /* main.m */; };
+		829E2A2D13E9A83300775931 /* BasicCrypterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 829E2A2C13E9A83300775931 /* BasicCrypterAppDelegate.m */; };
+		829E2A3013E9A83300775931 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829E2A2E13E9A83300775931 /* MainWindow.xib */; };
+		829E2A3313E9A83300775931 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829E2A3213E9A83300775931 /* MainViewController.m */; };
+		829E2A3513E9A83300775931 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829E2A3413E9A83300775931 /* MainView.xib */; };
+		829E2A3813E9A83300775931 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829E2A3713E9A83300775931 /* FlipsideViewController.m */; };
+		829E2A3A13E9A83300775931 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829E2A3913E9A83300775931 /* FlipsideView.xib */; };
+		829E2A4613E9A92700775931 /* EncryptionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 829E2A4513E9A92700775931 /* EncryptionModule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		829E2A1813E9A83300775931 /* BasicCrypter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicCrypter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		829E2A1C13E9A83300775931 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		829E2A1E13E9A83300775931 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		829E2A2013E9A83300775931 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		829E2A2413E9A83300775931 /* BasicCrypter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicCrypter-Info.plist"; sourceTree = "<group>"; };
+		829E2A2613E9A83300775931 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		829E2A2813E9A83300775931 /* BasicCrypter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BasicCrypter-Prefix.pch"; sourceTree = "<group>"; };
+		829E2A2913E9A83300775931 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		829E2A2B13E9A83300775931 /* BasicCrypterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicCrypterAppDelegate.h; sourceTree = "<group>"; };
+		829E2A2C13E9A83300775931 /* BasicCrypterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicCrypterAppDelegate.m; sourceTree = "<group>"; };
+		829E2A2F13E9A83300775931 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		829E2A3113E9A83300775931 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		829E2A3213E9A83300775931 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		829E2A3413E9A83300775931 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		829E2A3613E9A83300775931 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		829E2A3713E9A83300775931 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		829E2A3913E9A83300775931 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		829E2A4413E9A92700775931 /* EncryptionModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionModule.h; sourceTree = "<group>"; };
+		829E2A4513E9A92700775931 /* EncryptionModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionModule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		829E2A1513E9A83300775931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829E2A1D13E9A83300775931 /* UIKit.framework in Frameworks */,
+				829E2A1F13E9A83300775931 /* Foundation.framework in Frameworks */,
+				829E2A2113E9A83300775931 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		829E2A0D13E9A83300775931 = {
+			isa = PBXGroup;
+			children = (
+				829E2A2213E9A83300775931 /* BasicCrypter */,
+				829E2A1B13E9A83300775931 /* Frameworks */,
+				829E2A1913E9A83300775931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		829E2A1913E9A83300775931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				829E2A1813E9A83300775931 /* BasicCrypter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		829E2A1B13E9A83300775931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				829E2A1C13E9A83300775931 /* UIKit.framework */,
+				829E2A1E13E9A83300775931 /* Foundation.framework */,
+				829E2A2013E9A83300775931 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		829E2A2213E9A83300775931 /* BasicCrypter */ = {
+			isa = PBXGroup;
+			children = (
+				829E2A4013E9A89800775931 /* iPad */,
+				829E2A2B13E9A83300775931 /* BasicCrypterAppDelegate.h */,
+				829E2A2C13E9A83300775931 /* BasicCrypterAppDelegate.m */,
+				829E2A2E13E9A83300775931 /* MainWindow.xib */,
+				829E2A3113E9A83300775931 /* MainViewController.h */,
+				829E2A3213E9A83300775931 /* MainViewController.m */,
+				829E2A4413E9A92700775931 /* EncryptionModule.h */,
+				829E2A4513E9A92700775931 /* EncryptionModule.m */,
+				829E2A3413E9A83300775931 /* MainView.xib */,
+				829E2A3613E9A83300775931 /* FlipsideViewController.h */,
+				829E2A3713E9A83300775931 /* FlipsideViewController.m */,
+				829E2A3913E9A83300775931 /* FlipsideView.xib */,
+				829E2A2313E9A83300775931 /* Supporting Files */,
+			);
+			path = BasicCrypter;
+			sourceTree = "<group>";
+		};
+		829E2A2313E9A83300775931 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				829E2A2413E9A83300775931 /* BasicCrypter-Info.plist */,
+				829E2A2513E9A83300775931 /* InfoPlist.strings */,
+				829E2A2813E9A83300775931 /* BasicCrypter-Prefix.pch */,
+				829E2A2913E9A83300775931 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		829E2A4013E9A89800775931 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		829E2A1713E9A83300775931 /* BasicCrypter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829E2A3D13E9A83300775931 /* Build configuration list for PBXNativeTarget "BasicCrypter" */;
+			buildPhases = (
+				829E2A1413E9A83300775931 /* Sources */,
+				829E2A1513E9A83300775931 /* Frameworks */,
+				829E2A1613E9A83300775931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicCrypter;
+			productName = BasicCrypter;
+			productReference = 829E2A1813E9A83300775931 /* BasicCrypter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		829E2A0F13E9A83300775931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tigr@Soft";
+			};
+			buildConfigurationList = 829E2A1213E9A83300775931 /* Build configuration list for PBXProject "BasicCrypter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 829E2A0D13E9A83300775931;
+			productRefGroup = 829E2A1913E9A83300775931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				829E2A1713E9A83300775931 /* BasicCrypter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		829E2A1613E9A83300775931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829E2A2713E9A83300775931 /* InfoPlist.strings in Resources */,
+				829E2A3013E9A83300775931 /* MainWindow.xib in Resources */,
+				829E2A3513E9A83300775931 /* MainView.xib in Resources */,
+				829E2A3A13E9A83300775931 /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		829E2A1413E9A83300775931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829E2A2A13E9A83300775931 /* main.m in Sources */,
+				829E2A2D13E9A83300775931 /* BasicCrypterAppDelegate.m in Sources */,
+				829E2A3313E9A83300775931 /* MainViewController.m in Sources */,
+				829E2A3813E9A83300775931 /* FlipsideViewController.m in Sources */,
+				829E2A4613E9A92700775931 /* EncryptionModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		829E2A2513E9A83300775931 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				829E2A2613E9A83300775931 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		829E2A2E13E9A83300775931 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				829E2A2F13E9A83300775931 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		829E2A3B13E9A83300775931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		829E2A3C13E9A83300775931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		829E2A3E13E9A83300775931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicCrypter/BasicCrypter-Prefix.pch";
+				INFOPLIST_FILE = "BasicCrypter/BasicCrypter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		829E2A3F13E9A83300775931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicCrypter/BasicCrypter-Prefix.pch";
+				INFOPLIST_FILE = "BasicCrypter/BasicCrypter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		829E2A1213E9A83300775931 /* Build configuration list for PBXProject "BasicCrypter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829E2A3B13E9A83300775931 /* Debug */,
+				829E2A3C13E9A83300775931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829E2A3D13E9A83300775931 /* Build configuration list for PBXNativeTarget "BasicCrypter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829E2A3E13E9A83300775931 /* Debug */,
+				829E2A3F13E9A83300775931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 829E2A0F13E9A83300775931 /* Project object */;
+}

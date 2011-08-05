@@ -1,0 +1,30 @@
+Contents of /Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/Crypter/Crypter-Prefix.pch
+2.0 (tags/Apple/clang-137) (based on LLVM 2.9svn)
+-x
+objective-c
+-arch
+x86_64
+-fmessage-length=0
+-fdiagnostics-print-source-range-info
+-fdiagnostics-show-category=id
+-fdiagnostics-parseable-fixits
+-std=gnu99
+-fpascal-strings
+-O0
+-DDEBUG
+-isysroot
+/Developer/SDKs/MacOSX10.6.sdk
+-fasm-blocks
+-mmacosx-version-min=10.6
+-gdwarf-2
+-iquote
+-iquote
+-I/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug/include
+-F/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter/build/Debug
+-DIBOutlet=__attribute__((iboutlet))
+-DIBAction=void)__attribute__((ibaction)
+-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection))
+-ferror-limit=10
+-working-directory=/Users/tigra/Desktop/Coding/Encrypter/Mac/Crypter
+-Xclang
+-detailed-preprocessing-record
